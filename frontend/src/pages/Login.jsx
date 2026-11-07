@@ -159,6 +159,30 @@ function Login() {
                             }
                         </button>
 
+                        <button
+                            type="button"
+                            className="secondary-button full-width"
+                            style={{
+                                marginTop: "12px",
+                                padding: "10px",
+                                background: "#f8fafc",
+                                border: "1px dashed #94a3b8",
+                                borderRadius: "8px",
+                                color: "#475569",
+                                cursor: "pointer",
+                                fontWeight: "600",
+                                width: "100%"
+                            }}
+                            onClick={() => {
+                                setFormData({
+                                    email: "demo@nutrifit.com",
+                                    password: "password123"
+                                });
+                            }}
+                        >
+                            ⚡ Fill Demo Credentials
+                        </button>
+
                     </form>
 
                     <p className="auth-footer">
