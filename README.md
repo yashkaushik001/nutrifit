@@ -10,7 +10,24 @@ Nutrifit/
 └── frontend/      # React + Vite client application
 ```
 
-## Getting Started
+## Quick Start (All-in-One)
+
+You can now start everything (Database check, Backend, and Frontend) together:
+
+### Option A: 1-Click Launch (Windows)
+- Double-click **`start-dev.bat`** (or create a Desktop shortcut). It checks MySQL, starts both backend and frontend, and opens the browser.
+- To stop all services anytime, double-click **`stop-dev.bat`**.
+
+### Option B: Single Command (Terminal)
+From the project root:
+```bash
+npm run dev
+```
+*(Runs both backend on `:5000` and frontend on `:5173` concurrently with colored logs).*
+
+---
+
+## Detailed Setup
 
 ### Prerequisites
 - Node.js (v18+ recommended)
